@@ -1,0 +1,80 @@
+American Elm
+Tree: Green normally, Yellow fall color, high spreading canopy, Elm family, Was common in the 19th century to be planted in streets;
+Blueflag Iris
+Flower: Blue flowers with yellow & white markings, blooms from may to june, part of the Iridaceae family, medium to wet soil, full sun to partly shade;
+Canada Wild Ginger
+Flower: Evergreen groundcover, glossy heart shaped leaves with brown flowers underneath, party shade to full shade, blooms in late spring, average to moist soil;
+Evening Primrose
+Flower: Yellow lemon scented flowers open at dusk, close by noon, Wants full sun, Average moisture for soil, Blooms june through september;
+Pink Azalea
+Shrub: Variable color, but often pink, Full sun or partial shade, Blooms early to late spring;
+Red Maple
+Tree: Buds & young twigs are red, scarlet leaves in the fall, wants about 6 hours of full sun and 4-6 of parial sun;
+Swamp Rose
+Shrub: Fragrant flowers in summer with pink color, Rosaceae family, blooms june to july, full sun, wet soil, has thorns;
+Virginia Bluebells
+Flower: Pink flowers buds open to sky blue flowers Mar-Apr, partial to full shade, moist soil, blooms spring to early summer;
+White Ash
+Tree: Yellow, maroon to purple fall color, butterfly larval plant, wants full sun, moist or wet soils, has a spreading canopy;
+Yellow Thistle
+Flower: Bright yellow clusters of loose, single 1" daisy-like flower, Asteraceae family, blooms in spring, full sun, moist soil;
+Chrysanthemum
+Flower: Yellow/orange flower, blooms in the summer and fall, partial to full sun;
+Aster
+Flower: Purple flower, blooms in summer and fall, partial to full sun;
+Marigold
+Flower: orange/yellow/red flower, blooms in spring summer and fall, partial to full sun;
+Dahlia
+Flower: orange/pink/purple flower, blooms in summer and fall, full sun;
+Snowdrop
+Flower: white/purple/pink flower, blooms at the end of winter;
+Winter Aconite
+Flower: white/yellow flower, blooms in late winter;
+Winter Jasmine
+Flower: white/yellow flower, blooms in late winter/early spring;
+Crocus
+Flower: blue/purple flower, blooms in winter and spring, partial to full sun;
+Coneflower
+Summer: Purple flower that blooms in the summer
+Hyacinth
+Spring: Blue,pink, and white flowers that bloom in the spring
+Daffodil
+Spring: White and yellow flower that blooms in spring
+Bleeding_Heart
+Spring: Pink heart shaped flowers that bloom in spring
+Willow
+Tree: Long drooping leaves
+Japanese_Maple
+Tree: A tree with red leaves most of the year
+Forsythia
+Spring: A shrub with yellow flowers
+Tulip_Poplar
+Tree: Fast growing yellow tree
+Babys_Breath
+Summer: Shrub with white and pink flowers that blooms in the summer
+Naked_Lady_Lily
+Summer: Pink flower that blooms in the summer
+Weeping_Cherry
+Tree: tree with pink leaves
+Bee_Balm
+Summer: Pink or red flower that blooms in the summer that attracts bees
+Carnation
+Summer: Pink and white flower that blooms in the summer.
+Allium
+Spring: Usually pink flower that comes in multiple colors and blooms multiple seasons
+Poppy
+Spring: Blue red orange and white flower that bloons in spring and summer
+Peony
+Spring: Pink red and yellow flower that blooms in spring
+Snapdragon
+Spring: Red orange and pink flower that blooms year round
+Birch
+Tree: Tall tree that has white almost sandy bark
+Oak
+Tree:Green tree from the fagaceae family
+Red_Cedar
+Tree: Green tree with small berries that birds enjoy and a redish inner bark
+Sycamore
+Tree: Large green tree with a faster growth rate
+Blackwood_Acacia
+Tree: Green tree with a wide canopy

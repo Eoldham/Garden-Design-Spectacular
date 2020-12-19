@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13.0.2" class="java.beans.XMLDecoder">
+ <object class="com.horstmann.violet.ClassDiagramGraph">
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode0">
+    <void property="attributes">
+     <void property="text">
+      <string>ArrayList &lt;Plant&gt; plantList
+int gardenWidth
+int gardenHeight
+String plantTraits
+Garden garden
+SavedData savedData</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>Model(ArrayList&lt;Plant&gt;)
+Plant Add(double, double, String)
+Garden getGarden()
+Plant getPlant(String)
+String getPlantDescription(String)
+ArrayList&lt;Plant&gt; getPlantList()
+String getPlantScienceName(String)
+double  getPlantSizeNum(String)
+String getPlantSizeString(String)
+String getPlantTraits()
+ArrayList&lt;String&gt; getPlantTraits(String)
+void move(double, double, Plant)
+void remove(Plant)
+ArrayList&lt;String&gt; searchPlantListByTrait(String, String, String)
+void setGarden(Garden)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Model</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double0">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double0"/>
+      <double>440.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double0"/>
+      <double>40.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>440.0</double>
+     <double>40.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode1">
+    <void property="attributes">
+     <void property="text">
+      <string>Controller control
+GraphicsContext gc
+DrawGardenPane drawGardenPane
+PlantSearchPane plantSearchPane
+ToolBarPane ratingToolBar
+BorderPane border
+EncyclopediaPane encyclopediaPane
+Stage theStage
+numChildrenInBorder
+StartPageView startPage
+Scene theScene
+int ROOT_WIDTH
+int ROOT_HEIGHT
+int gardenWidth
+int gardenHeight
+ArrayList&lt;String&gt; allPlantNames
+Map&lt;String, ImageView&gt; plantList</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>View(Stage, Controller, int, int)
+void addPlants(Plant)
+void createHashMap()
+ArrayList&lt;String&gt; getAllPlantNames()
+DrawGardenPane getDrawGardenPane()
+GraphicsContext getgc()
+Map&lt;String, ImageView&gt; getPlantList()
+PlantSearchPane getPlantSearchPane()
+int getROOT_HEIGHT()
+int getROOT_WIDTH()
+Scene getScene()
+Scene getStage()
+ToolBarPane getToolBarPane()
+void loadNewGarden(ArrayList&lt;Plant&gt;, ArrayList&lt;Integer&gt;, Season, int, int)
+void movePlant(ImageView, Plant)
+void removePlant(Plant)
+void removePlantsInGarden(ArrayList&lt;Plant&gt;)
+void setMainScene()
+void setPlantPage(String)
+void showEncyclopedia()
+void showGarden(ArrayList&lt;Plant&gt;)
+void showPlantsInSeason(ArrayList&lt;Plant&gt;)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>View</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double1">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>2130.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>20.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>2130.0</double>
+     <double>20.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode2">
+    <void property="attributes">
+     <void property="text">
+      <string>Model model
+View view
+Scanner scan
+Garden garden
+Canvas canvas
+boolean loadGarden
+Garden loadedGarden
+boolean isEncyc
+String PLANT_INFO_CSV
+String HELP_TXT
+String[] helpText
+int GARDEN_HOLDER_XPOS
+int GARDEN_HOLDER_YPOS
+int X_DRAW_OFFSET
+int Y_DRAW_OFFSET
+boolean imageViewsAreToggleable</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>void main(String[] args)
+boolean checkPlantSize(String)
+void createNewFile(String, int, int)
+void dragAndDrop(MouseEvent, Image)
+void encyclopediaChoice(MouseEvent, ImageView)
+Garden getGarden()
+ArrayList&lt;String&gt; getGardenFiles()
+String[] getHelpText()
+Garden getLoadedGarden()
+booleangetLoadGarden()
+String getPlantDescription(String)
+ArrayList&lt;String&gt; getPlantNames()
+String getPlantScienceName(String)
+String getPlantSizeString(String)
+ArrayList&lt;String&gt; getPlantTraits(String)
+String[] loadHelp()
+ArrayList&lt;Plant&gt; loadPlantList()
+void movePlant(MouseEvent)
+void open(String)
+void openNewFile(SavedData)
+void removeClick(MouseEvent)
+void save(String)
+void setHandlerForCancelNewFileClicked(Button)
+void setHandlerForCancelOpenPopUpClicked(Button)
+void setHandlerForCancelSaveAsClicked(Button)
+void setHandlerForDonePlantEncycClicked(Button)
+void setHandlerForDragAndDrop(ImageView)
+void setHandlerForDrawButton(ToggleButton)
+void setHandlerForEraseButton(ToggleButton)
+void setHandlerForHelpButton(Button)
+void setHandlerForHelpButtonClose(Button)
+void setHandlerForNewFileClicked(Button)
+void setHandlerForNewFilePopUpClicked(Button)
+void setHandlerForNewFilePopUpClicked(MenuItem)
+void setHandlerForOpenClicked(Button, ListView&lt;String&gt;)
+void setHandlerForOpenPopUpClicked(Button)
+void setHandlerForOpenPopUpClicked(MenuItem)
+void setHandlerForPaintPlantButton(ToggleButton)
+void setHandlerForPlantDragged(ImageView)
+void setHandlerForPlantEncyclopediaClicked(Button)
+void setHandlerForRatingPopUp(HBox)
+void setHandlerForRemoveClick(ImageView)
+void setHandlerForSaveAsPopUpClicked(MenuItem)
+void setHandlerForSaveClicked(Button, TextField)
+void setHandlerForSaveMenuItemClicked(MenuItem)
+void setHandlerForSearchBar(Button)
+void setHandlerForSearchTab(ComboBox&lt;String&gt;)
+void setHandlerForSeasonComboBox(ComboBox&lt;String&gt;)
+void setHandlerForToggledImageViews(ImageView)
+void start(Stage)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Controller </string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double2">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double2"/>
+      <double>1270.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double2"/>
+      <double>30.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>1270.0</double>
+     <double>30.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode3">
+    <void property="attributes">
+     <void property="text">
+      <string>double plantSizeNum
+String plantName
+char plantChar
+String plantDescription
+String[] plantTraits
+String plantSize
+String plantScienceName
+double xCor
+double yCor</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>Plant(String, String, String[], String, String, double)
+char getChar()
+String getDescription()
+String getName()
+double getPlantSizeNum()
+String getPlantSizeString()
+String getScienceName()
+String[]getTraits()
+double getxCor()
+double getyCor()
+void setxCor(double)
+void setyCor(double)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Plant</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double3">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double3"/>
+      <double>740.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double3"/>
+      <double>840.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>740.0</double>
+     <double>840.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode4">
+    <void property="attributes">
+     <void property="text">
+      <string>int width
+int height
+ArrayList &lt;Plant&gt; plantsInGarden
+Season season
+ArrayList&lt;Integer&gt; ratings</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>Garden(int, int)
+void addPlant(double, double, String, String, String[], String, String, double)
+int getGardenHeight()
+int getGardenWidth()
+ArrayList&lt;Plant&gt; getPlants()
+ArrayList&lt;Plant&gt; getPlantsInGarden()
+ArrayList&lt;Plant&gt; getPlantsInSeason()
+Season getSeason()
+ArrayList&lt;Integer&gt; getSeasonRatings()
+void setSeason(Season)
+void setSeasonRatings()</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Garden</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double4">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>90.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>620.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>90.0</double>
+     <double>620.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode5">
+    <void property="attributes">
+     <void property="text">
+      <string>Color springStyle
+Color summerStyle
+Color fallStyle
+Color winterStyle
+Color allSeasonStyle
+ComboBox&lt;String&gt; selectSeason
+ToolBar drawGardenToolBar
+ToggleButton eraseButton
+ToggleButton drawButton
+ToggleButton paintPlantsButtom
+BorderPane holder
+BorderPane drawGardenBorder
+Canvas drawGardenCanvas
+Label gardenDimLabel
+double DRAW_GARDENPANE_WIDTH
+double DRAW_GARDENPANE_HEIGHT
+int gardenX
+int gardenY
+double largerDim
+Rectangle gardenRect
+double GRID_INCREMENT</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>DrawGardenPane(View, int, int)
+ToggleButton getDrawButton()
+BorderPane getDrawGardenBorder()
+Canvas getDrawGardenCanvas()
+ToggleButton getEraseButton()
+double getGardenPaneHeight()
+double getGardenPaneWidth()
+BorderPane getHolder()
+void setGardenDim(int, int)
+void setLines(int, int)
+void setRectangle()
+void setSeason(Season)
+void setSeasonComboBox(Season)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>DrawGardenPane</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double5">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double5"/>
+      <double>2220.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double5"/>
+      <double>770.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>2220.0</double>
+     <double>770.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode6">
+    <void property="attributes">
+     <void property="text">
+      <string>int EncyclopediaPane_WIDTH
+int EncyclopediaPane_HEIGHT
+View mainView
+TilePane imgContainer
+BorderPane borderPane</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>EncyclopediaPane(View)
+BorderPane buildPlantPage(String)
+BorderPane getPane()</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>EncyclopediaPane</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double6">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double6"/>
+      <double>2930.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double6"/>
+      <double>230.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>2930.0</double>
+     <double>230.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode7">
+    <void property="attributes">
+     <void property="text">
+      <string>ObservableList&lt;String&gt; plantOptions
+ComboBox&lt;String&gt; typesOfPlants
+ComboBox&lt;String&gt;  typesOfSeasons
+ComboBox&lt;String&gt;  typesOfColors
+TextField searcher
+View mainView
+Vbox mainPane
+TilePane imageContainterPane
+ScrollPane scrollPane
+ArrayList&lt;Vbox&gt; plantContainters
+Vbox currVBox
+int SCROLL_PANE_MAX_HEIGHT</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>PlantSearchPane(View)
+VBox getMainPane()
+TextField getTextField()
+VBox getToggledPlant()
+void setSelectedImage(ImageView)
+void update(ArrayList&lt;String&gt;)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>PlantSearchPane</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double7">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double7"/>
+      <double>1780.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double7"/>
+      <double>920.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>1780.0</double>
+     <double>920.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode8">
+    <void property="attributes">
+     <void property="text">
+      <string>Garden garden
+String fileName</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>SavedData(String, Model)
+String getFileName()
+Garden getGarden()</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>SavedData</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double8">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double8"/>
+      <double>100.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double8"/>
+      <double>340.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>100.0</double>
+     <double>340.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode9">
+    <void property="attributes">
+     <void property="text">
+      <string>ALL_SEASONS
+AUTUMN
+SPRING
+SUMMER
+WINTER
+String name</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>Season(String)
+String getSeason()</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Season (Enum)</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double9">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double9"/>
+      <double>1330.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double9"/>
+      <double>1240.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>1330.0</double>
+     <double>1240.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode10">
+    <void property="attributes">
+     <void property="text">
+      <string>Scene introScene
+View mainView
+int FRONT_PAGE_WIDTH
+int FRONT_PAGE_HEIGHT
+String FRONT_PAGE_IMG</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>StartPageView(View)
+Scene getScene()</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>StartPageView</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double10">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double10"/>
+      <double>2840.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double10"/>
+      <double>510.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>2840.0</double>
+     <double>510.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode11">
+    <void property="attributes">
+     <void property="text">
+      <string>ToolBar ratingToolBar
+Circle[] ratingCircles
+int RATING_TOTAL
+int MIN_GARDEN_WIDTH
+int MAX_GARDEN_WIDTH
+int MIN_GARDEN_HEIGHT
+int MAX_GARDEN_HEIGHT
+String springColor
+String summerColor
+MenuButton fileButton
+Button plantEncyclopedia
+Button helpButton
+Popup plantEncycPopUp
+Popup newFilePopUp
+Popup saveAsPopUp
+Popup openPopUp
+Popup helpPopUp
+Popup ratingPopUp
+TextField gardenName
+Spinner&lt;Integer&gt; heightSpinner
+SpinnerValueFactory&lt;Integer&gt; heightValueFactory
+Spinner&lt;Integer&gt; widthSpinner
+SpinnerValueFactory&lt;Integer&gt; widthValueFactory;
+ListView&lt;String&gt; files
+View mainView
+Rectangle springRating
+Rectangle summerRating
+Rectangle autumnRating
+Rectangle winterRating
+Label tips</string>
+     </void>
+    </void>
+    <void property="methods">
+     <void property="text">
+      <string>ToolBarPane(View)
+void createFileButton()
+void createHelpButton()
+void createHelpPopUp()
+void createNewFilePopUp()
+void createOpenPopUp()
+void createPlantEncyclopediaButton()
+void createRatingPopUp()
+void createSaveAsPopUp()
+Popup getHelpPopUp()
+Popup getNewFilePopUp()
+Popup getOpenPopUp()
+Popup getPlantEncycPopUp()
+Popup getRatingPopUp()
+ToolBar getRatingToolBar()
+Popup getSaveAsPopUp()
+void updateOpenPopUp(ArrayList&lt;String&gt;)
+void updateRating(ArrayList&lt;Integer&gt;)</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>ToolBarPane</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double11">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double11"/>
+      <double>2830.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double11"/>
+      <double>1000.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>2830.0</double>
+     <double>1000.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode0"/>
+   <object idref="ClassNode4"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode0"/>
+   <object idref="ClassNode3"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode0"/>
+   <object idref="ClassNode8"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode3"/>
+   <object idref="ClassNode9"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="bentStyle">
+     <object class="com.horstmann.violet.BentStyle" field="HVH"/>
+    </void>
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ClassNode2"/>
+   <object idref="ClassNode1"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="bentStyle">
+     <object class="com.horstmann.violet.BentStyle" field="HVH"/>
+    </void>
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ClassNode2"/>
+   <object idref="ClassNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="bentStyle">
+     <object class="com.horstmann.violet.BentStyle" field="HVH"/>
+    </void>
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ClassNode4"/>
+   <object idref="ClassNode3"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="bentStyle">
+     <object class="com.horstmann.violet.BentStyle" field="HVH"/>
+    </void>
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+   </object>
+   <object idref="ClassNode2"/>
+   <object idref="ClassNode4"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode11"/>
+   <object idref="ClassNode9"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode1"/>
+   <object idref="ClassNode5"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode1"/>
+   <object idref="ClassNode7"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode1"/>
+   <object idref="ClassNode11"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode1"/>
+   <object idref="ClassNode6"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.ClassRelationshipEdge">
+    <void property="endArrowHead">
+     <object class="com.horstmann.violet.ArrowHead" field="V"/>
+    </void>
+    <void property="lineStyle">
+     <object class="com.horstmann.violet.LineStyle" field="DOTTED"/>
+    </void>
+   </object>
+   <object idref="ClassNode1"/>
+   <object idref="ClassNode10"/>
+  </void>
+ </object>
+</java>

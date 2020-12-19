@@ -1,0 +1,16 @@
+Welcome to Garden Planner Spectacular!
+
+Start by dragging plants from the left to right with left mouse click.
+Use the mouse to click on a plant to remove it.
+There are different dropdowns you can use to sort your plants as well as a search bar you can type a plant into.
+You can click the draw button at the top then click your mouse and drag to draw your own garden perimeter.
+To erase your drawn lines you can click the erase button and click and drag over your drawn garden.
+In the top right you can see 4 circles representing the seasons, these fill in with color the more
+plants you have that bloom for that seasons color. To get more details click on one of the circles. 
+You can click the dropdown below the seasons to select a season and only show plants that bloom then.
+In the top left you can click plant encyclopedia to view information on plants, you can search through
+the plant pages by clicking on the image of the plant in the left search column.
+Finally in the top left you have the file menu where you can start a new file, save, save as, and open files.
+Plants labeled with brown text are too large for your garden and will not display when dragged into the garden.
+To use the paint function, toggle paint, then click on the flower and then drag along the page. To stop painting
+click the paint button again. 
