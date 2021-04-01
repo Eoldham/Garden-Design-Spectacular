@@ -1,3 +1,17 @@
-# CISC275-project-template
+# Garden Design Spectacular
 
-Note: for Github Actions to compile with gradle you must use the directory structure `src/main/java/` and `src/main/resources/`
+## Concept: 
+
+## About: 
+
+## Preview: 
+
+## Instructions:
+
+## Author: 
+Emily Oldham <br>
+owlanne@udel.edu <br>
+Eli Haberman-Rivera <br>
+JC Sergent <br>
+Arthur Marino <br>
+Caroline Graham <br>
