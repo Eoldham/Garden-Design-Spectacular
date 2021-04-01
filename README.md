@@ -1,12 +1,9 @@
 # Garden Design Spectacular
 
 ## Concept: 
-
-## About: 
+This is a software written to help gardeners in Delaware plan thier garden using native plants. 
 
 ## Preview: 
-
-## Instructions:
 
 ## Author: 
 Emily Oldham <br>
